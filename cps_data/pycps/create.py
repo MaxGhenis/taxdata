@@ -19,7 +19,7 @@ DATA_PATH = Path(CUR_PATH, "data")
 with Path(CUR_PATH, "master_cps_dict.pkl").open("rb") as f:
     PARSE_DICT = pickle.load(f)
 # list of which CPS file to actually use
-CPS_FILES = [2013, 2014, 2015]
+CPS_FILES = [2018]
 
 
 def create(exportcsv: bool = False, exportpkl: bool = False,
